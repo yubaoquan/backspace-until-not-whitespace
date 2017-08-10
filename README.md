@@ -1,8 +1,10 @@
 # backspace-until-not-whitespace package
 
-Press backspace to delete all the continuously whitespaces in the string before the cursor.
+Hit backspace to delete all the continuously whitespaces in the string before the cursor.
 
-![A screenshot of your package](https://raw.githubusercontent.com/yubaoquan/backspace-until-not-space/master/demo.gif)
+![JS Demo](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/backspace-package-demo/js-demo.gif)
+
+![HTML Demo](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/backspace-package-demo/html-demo.gif)
 
 Setting:
 1. `Multi Line Delete`: check this options to enable a backspace delete until find a none-whitespace line.
