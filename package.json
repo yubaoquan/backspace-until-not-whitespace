@@ -1,0 +1,19 @@
+{
+  "name": "backspace-until-not-whitespace",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Press backspace to delete all the continuously whitespaces in the string before the cursor",
+  "keywords": [
+    "delete",
+    "whitespace",
+    "backspace"
+  ],
+  "author": "Jerry Yu",
+  "repository": "https://github.com/yubaoquan/backspace-until-not-whitespace",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "bugs": "https://github.com/yubaoquan/backspace-until-not-whitespace/issues",
+  "dependencies": {}
+}
