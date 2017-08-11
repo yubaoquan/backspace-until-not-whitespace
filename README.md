@@ -13,3 +13,8 @@ Setting:
 # Changelog
 
 0.1.0 init
+
+0.1.1
+
+1. Fix bug: options not showing up;
+2. Enhancement: Delete trailing spaces in none-blank line;

@@ -20,10 +20,10 @@ export default {
     },
     activate: function() {
         this.subscriptions = new CompositeDisposable();
-        atom.config.observe('backspace-until-not-space.disabledFileExtensions', (value = []) => {
+        atom.config.observe('backspace-until-not-whitespace.disabledFileExtensions', (value = []) => {
             this.disabledFileExtensions = value;
         });
-        atom.config.observe('backspace-until-not-space.multiLineDelete', (val) => {
+        atom.config.observe('backspace-until-not-whitespace.multiLineDelete', (val) => {
             config.multiLineDelete = val;
         });
         this.currentEditor = atom.workspace.getActiveTextEditor();
@@ -33,7 +33,7 @@ export default {
             this.registerListener();
         });
     },
-    registerListener() {
+     registerListener() {
         this._getFileExtension();
         if (this.disabledFileExtensions.includes(this.extension)) {
             console.info(`suffix:${this.extension}, do not listen`);
@@ -79,7 +79,8 @@ export default {
         if (filename && filename.includes('.')) {
             const parts = filename.split('.');
             this.extension = parts[parts.length - 1];
-        }
+        }     aaa
+
         return this.extension;
     },
     storeCursorPos(e) {
