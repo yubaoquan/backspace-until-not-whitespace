@@ -2,6 +2,12 @@
 
 Press backspace to delete all the trailing whitespaces in a line.
 
+#### Simple delete trailing whitespaces.
+
+![Demo1](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/backspace-package-demo/oneLineDemo.gif)
+
+#### Selete whitespaces line by line until find one line not trailing with whitespaces
+
 ![JS Demo](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/backspace-package-demo/js-demo.gif)
 
 ![HTML Demo](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/backspace-package-demo/html-demo.gif)
