@@ -2,9 +2,10 @@
   "name": "backspace-until-not-whitespace",
   "main": "./lib/main",
   "version": "0.1.1",
-  "description": "Press backspace to delete all the continuously whitespaces in the string before the cursor",
+  "description": "Press backspace to delete all the trailing whitespaces in a line.",
   "keywords": [
     "delete",
+    "trailing",
     "whitespace",
     "backspace"
   ],
