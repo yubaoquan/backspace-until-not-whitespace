@@ -6,7 +6,7 @@ Press backspace to delete all the trailing whitespaces in a line.
 
 ![Demo1](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/backspace-package-demo/oneLineDemo.gif)
 
-#### Selete whitespaces line by line until find one line not trailing with whitespaces
+#### Auto delete whitespaces line by line until find one line not trailing with whitespaces
 
 ![JS Demo](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/backspace-package-demo/js-demo.gif)
 
@@ -24,3 +24,5 @@ Setting:
 
 1. Fix bug: options not showing up;
 2. Enhancement: Delete trailing spaces in none-blank line;
+
+0.1.5 Remove default disabled file type: html.
