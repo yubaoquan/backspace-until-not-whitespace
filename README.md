@@ -1,6 +1,6 @@
 # backspace-until-not-whitespace package
 
-Hit backspace to delete all the continuously whitespaces in the string before the cursor.
+Press backspace to delete all the trailing whitespaces in a line.
 
 ![JS Demo](https://raw.githubusercontent.com/yubaoquan/yubaoquan.github.io/master/images/backspace-package-demo/js-demo.gif)
 
