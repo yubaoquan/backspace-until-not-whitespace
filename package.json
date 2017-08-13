@@ -1,7 +1,7 @@
 {
   "name": "backspace-until-not-whitespace",
   "main": "./lib/main",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Press backspace to delete all the trailing whitespaces in a line.",
   "keywords": [
     "delete",
