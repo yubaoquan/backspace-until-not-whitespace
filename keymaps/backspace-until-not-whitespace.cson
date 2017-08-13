@@ -1,0 +1,2 @@
+'atom-text-editor:not([mini])':
+    'shift-backspace': 'backspace-until-not-whitespace:delete-white-spaces'

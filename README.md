@@ -26,3 +26,5 @@ Setting:
 2. Enhancement: Delete trailing spaces in none-blank line;
 
 0.1.5 Remove default disabled file type: html.
+
+0.1.6 Add keybinding option, so user can choose delete trailing spaces by backspace or other keybindings.

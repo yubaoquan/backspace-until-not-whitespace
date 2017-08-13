@@ -33,7 +33,7 @@ export default {
             this.registerListener();
         });
     },
-     registerListener() {
+    registerListener() {
         this._getFileExtension();
         if (this.disabledFileExtensions.includes(this.extension)) {
             console.info(`suffix:${this.extension}, do not listen`);
@@ -79,7 +79,7 @@ export default {
         if (filename && filename.includes('.')) {
             const parts = filename.split('.');
             this.extension = parts[parts.length - 1];
-        }     aaa
+        }
 
         return this.extension;
     },
