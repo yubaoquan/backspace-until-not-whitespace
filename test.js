@@ -51,7 +51,8 @@ export default {
             }
         });
         this.element = atom.views.getView(editor);
-        this.element.addEventListener('keydown', this.storeCursorPos.bind(this));
+        this.elementListener = this.storeCursorPos.bind(this);
+        this.element.addEventListener('keydown', this.elementListener);
     },
     isDeletedSpace(e) {
         if (!e || !e.changes || !e.changes[0]) {
