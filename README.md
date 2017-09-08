@@ -32,3 +32,5 @@ Setting:
 0.1.6 Add keybinding option, so user can choose delete trailing spaces by backspace or other keybindings.
 
 0.1.7 Fix shift-delete and duplicated event listeners.
+
+0.1.8 Fix the wrong use of disposer causing an error when reload triggers.
